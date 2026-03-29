@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Grandiosoft Tech
 
-## Getting Started
+Grandiosoft Tech is a professional company website for Grandiosoft Technologies, built to demonstrate a full modern DevOps lifecycle from development to production.
 
-First, run the development server:
+## Project Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This project represents a production-style web platform designed to showcase Grandiosoft Technologies as a modern cloud, DevOps, and digital infrastructure brand. It is being built as both a real company website and a complete DevOps portfolio project.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Frontend
+- Next.js
+- React
+- Tailwind CSS
+- TypeScript
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### DevOps and Delivery
+- Git and GitHub
+- Jenkins
+- SonarQube
+- Nexus
+- Docker
+- Kubernetes
+- AWS
 
-## Learn More
+## Current Features
+- Multi-page company website
+- Home page
+- About page
+- Services page
+- Projects page
+- Contact page
+- Shared Navbar and Footer
+- Responsive modern UI
 
-To learn more about Next.js, take a look at the following resources:
+## Planned DevOps Lifecycle
+This project will move through the following stages:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Local development in VS Code
+2. Source control with GitHub
+3. CI/CD pipeline with Jenkins
+4. Code quality analysis with SonarQube
+5. Artifact management with Nexus
+6. Containerization with Docker
+7. Deployment to Kubernetes
+8. Cloud hosting on AWS
+9. Production exposure through networking and ingress
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Project Structure
 
-## Deploy on Vercel
+```text
+grandiosoft-tech/
+├── app/
+├── components/
+├── public/
+├── .gitignore
+├── README.md
+├── package.json
+└── tsconfig.json
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Project Goal
+The goal of this project is to build and understand a real-world DevOps workflow end to end, including application development, CI/CD, containerization, orchestration, cloud deployment, and networking.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Author
+Yinka Fadoju

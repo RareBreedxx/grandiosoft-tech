@@ -27,11 +27,22 @@ pipeline {
                 sh 'npm run build'
             }
         }
+
+        stage('SonarQube Analysis') {
+            steps {
+                script {
+                    def scannerHome = tool 'sonar-scanner'
+                    withSonarQubeEnv('sonarqube') {
+                        sh "${scannerHome}/bin/sonar-scanner"
+                    }
+                }
+            }
+        }
     }
 
     post {
         success {
-            echo 'Grandiosoft Tech build completed successfully.'
+            echo 'Grandiosoft Tech build and SonarQube scan completed successfully.'
         }
         failure {
             echo 'Pipeline failed. Check the logs for details.'
